@@ -1,0 +1,229 @@
+
+
+  $primary-color: #3b0e8a;
+  $primary-color-light: #c698f3;
+  $primary-color-light-1: #7c7b7e;
+  $primary-color-light-2: #e6e0f2;
+
+  $primary-color-dark: #190934cc;
+
+  $secondary-color: #f16600;
+
+  $background-color-1: #fbf9fd;
+  $text-color: #7f75a5;
+
+  $button-borderRadius: 15px  ;
+  $button-border: 1px solid transparent; 
+  $font:-286,7 +283,7;
+  $btnheight:50px;
+  $btnwidth:300px;
+
+li{
+  list-style: none;
+  display: inline  ;  
+  margin: 10px 20px 10px 10px;
+}
+
+
+.donate{
+  margin-left: 300px;
+}  
+.navs{
+  background-color: $primary-color ;
+  color: $background-color-1;
+  height: 10vh;
+  width: 100vw;
+  
+}  
+
+.nav2{
+  display: flex;
+  align-items: center;
+  
+}
+.loginBtn{
+  border-radius:$button-borderRadius ;
+  background-color:$secondary-color ;
+  cursor: pointer;
+  padding: 5px 15px 5px 10px;
+
+}
+
+.loginBtn:hover{
+  border-radius:$button-borderRadius ;
+  background-color: $background-color-1;
+  color: $secondary-color ;
+  }
+.dontatebtn{
+  border-radius:$button-borderRadius ;
+  background-color: $background-color-1;
+  color: $secondary-color ;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+}
+.dontatebtn:hover{
+  border-radius:$button-borderRadius ;
+  background-color:$secondary-color ;
+  cursor: pointer;
+  color:$background-color-1;
+}
+
+.space{
+  background-color: $background-color-1 ;
+  // background-color: black;
+  width: 100vw;
+  height: 6vh;
+}
+
+.everyTittle{
+  border-top: 1px solid #3b0e8a ;
+  border-bottom: 1px solid #3b0e8a ;
+
+}
+
+.everyTittle{
+  display: flex;
+}
+// .imgdiv{
+//   flex: 2;
+// }
+.DonateHead{
+  // flex: 6;
+  margin: 20px 20px 20px 20px;
+  font-size: 50px;
+  color: $primary-color;
+}
+
+.DonateText{
+  margin: 30px 20px 30px 20px;
+  color: $text-color;
+}
+
+.nav-tabs{
+  display: flex;
+  flex-direction:row;
+  color:white;
+}
+
+.oneTime{
+  border: $button-border;
+  height: $btnheight;
+  width:$btnwidth;
+  background-color: $primary-color;
+  color: $primary-color-light-2;
+  text-align: center;
+  border-radius: $button-borderRadius;
+
+
+}
+.monthly{
+  border:1px solid $primary-color;
+  height: $btnheight;
+  width:$btnwidth;
+  background-color: $primary-color-light-2;
+  color: $primary-color;
+  text-align: center;
+  border-radius: $button-borderRadius;
+
+
+}
+
+
+.dolor1{
+  height: 30px;
+  width: 80px;
+  border: $button-border;
+  background-color: $primary-color;
+  color:  $primary-color-light-2;
+  border-radius: 5px;
+  text-align: center;
+ 
+}
+.dolor2{
+  height: 30px;
+  width: 80px;
+  border: $button-border;
+  background-color: $primary-color-light-2;
+  color: $primary-color ;
+  border-radius: 5px;
+  text-align: center;
+}
+.dolor{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 40px 20px 40px;
+}
+
+.inputDonate{
+  border-radius:10px;
+  height:30px ;
+  width:200px;
+ border:  1px solid   $primary-color ;
+}
+
+.donerInfo{
+  text-align: center;
+  background-color: $secondary-color;
+  color: $primary-color-light-2;
+  height: 30px;
+  // text-align: center;
+  // align-items: center;
+  width: 120px;
+  border-radius: $button-borderRadius;
+  float: right;
+  margin-right: 80px;
+  // position: relative;
+}
+
+
+.payment{
+  display: flex;
+  justify-content: space-around;
+}
+
+.paypal{
+  height: 40px;
+width: 200px;
+background-color: $primary-color-light-2;
+color: $primary-color;
+border-radius: 5px ;
+border: 1px solid $primary-color;
+text-align: center;
+padding: 10px 0px 5px 0px;
+// align-items: center;
+// justify-content: center;
+}
+
+.credit{
+  height: 40px;
+width: 200px;
+background-color: $primary-color;
+color: $primary-color-light-2;
+border-radius: 5px ;
+border: 1px solid $primary-color;
+text-align: center;
+padding: 10px 0px 5px 0px;
+// align-items: center;
+// justify-content: center;
+}
+
+.visa{
+  margin: 10px 15px 10px 15px ;
+}
+.inp {
+  border:none;
+  border-bottom: 1px solid $primary-color;
+  padding: 5px 10px;
+  outline: none;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease; 
+  text-indent: -100%;
+  opacity: 1;
+}
+
+#inp{
+ justify-content: space-around;
+ display: flex;
+}
